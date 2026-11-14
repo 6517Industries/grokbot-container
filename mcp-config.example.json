@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "grokbot": {
+      "command": "node",
+      "args": ["/absolute/path/grokbot-container/mcp.cjs"],
+      "env": {
+        "GROK_URL": "http://127.0.0.1:8088",
+        "GROK_TOKEN_FILE": "/absolute/path/grokbot-container/.tokens/alice-tasks"
+      }
+    }
+  }
+}

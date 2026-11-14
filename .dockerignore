@@ -1,0 +1,14 @@
+.docker
+data
+*.deb
+screen.png
+multi-data/
+.tokens/
+.git
+mcp-config.json
+*.tar.gz
+*.asar
+.env
+.env.*
+.DS_Store
+__pycache__/
